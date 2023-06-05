@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #93c5fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: roboto;
+  padding: 10px;
+}
+.city-container {
+  width: 40%;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.dropdown-container {
+  display: flex;
+}
+.option-value {
+  padding: 10px;
+}
+
+.text {
+  padding-left: 20px;
+}
+@media (max-width: 767px) {
+  .city-container {
+    width: 100%;
+  }
+}
